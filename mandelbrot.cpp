@@ -5,6 +5,13 @@
 #include <opencv2/opencv.hpp>
 #include "ConsoleApplication1.h"
 
+
+/*
+Controls:
+  r: Reset zoom
+  mouse drag: Specify area to zoom in to. Mouse should be dragged from the bottom left of a zoom window to the top right.
+  space: Zoom in
+*/
 using namespace std;
 
 const int MAX_RADIUS = 2;
